@@ -1,0 +1,29 @@
+.register-account-link:hover{
+    cursor: pointer;
+}
+.login-form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(163, 14, 96); 
+}
+.form-class{
+    width: 75%;
+}
+.form-textField{
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .form-class{
+        width: 100%;
+    }
+    .form-textField{
+        width: 100%;
+    }
+  }
+  .login-container{
+    min-height: 100vh;
+}
+
